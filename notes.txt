@@ -1,0 +1,25 @@
+# Bibliotecas instaladas
+
+* Json Server (Aceita formatos Json ou Javascript);
+- yarn add json-server -D
+
+* Criar um script dentro o package.json, para rodar o json-server;
+-  "server": "json-server -d 750 -w -p 3333 ./server.js"
+
+* Virtualização
+- yarn add react-virtualized
+- yarn add @types/react-virtualized -D
+
+
+* lodash
+- yarn add lodash
+- yarn add @types/lodash -D
+
+* Bundle Analyzer
+- yarn add @next/bundle-analyzer
+
+
+* rode o comando (no windows nao funciona)
+- ANALYZE=true yarn build
+
+
